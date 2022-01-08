@@ -1,0 +1,37 @@
+Create and submit 3 files for this assignment:
+
+- makefile
+- gryphflix.c (all function definitions go here)
+- main.c (has the main program to test all functions written in gryphflix.c)
+
+Follow the instructions given in A1.pdf to submit these files to Gitlab (also given below for convenience).  
+
+Step 1: Computer setup (local)
+- make sure git is installed (https://git-scm.com/downloads)
+- Mac users can use the terminal mode (I have tested it on my mac) 
+- Windows users can use powershell,  WSL (windows subsystem for linux) or git bash.  
+- decide where cis2500 work will go and make a directory (e.g. mkdir CIS2500)
+- cd to that directory from the terminal application
+
+Step 2: From the chosen directory, now type: 
+git clone https://git.socs.uoguelph.ca/2500w21/<your username>/a1.git
+
+At this point, you have a directory to work with on your local system.
+
+Step 3: Do the work
+
+- (remember to) cd to the new directory
+- create the file that you are working on
+- after first save, type:   git add filename
+ONLY ADD THE FILE ONCE!!!   //do not do: git add .
+
+Loop every 20-30 minutes:
+    git commit -am "write something here about what you just did"
+
+Once per day:
+	git push   // this is what stores local work back to the server.
+
+To learn more about Gitlab, go to this link on moodle https://moodle.socs.uoguelph.ca/course/view.php?id=169
+
+
+
